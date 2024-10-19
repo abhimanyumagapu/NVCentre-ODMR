@@ -1,0 +1,5 @@
+The singleNV file simulates and plots the Optically Detected Magnetic Resonance (ODMR) spectrum for a single NV (Nitrogen-Vacancy) center. 
+The ensemble file simulates the ODMR spectrum for an ensemble of NV centers.
+
+Additionally, the ensemble simulation incorporates parallel computing, allowing for more efficient calculations. 
+You can input a matrix of initial magnetic field vectors, the ODMR spectrum is computed simultaneously for all of them, significantly speeding up the process.
